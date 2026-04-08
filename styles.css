@@ -319,7 +319,7 @@ select {
 
 .pill.low {
   background: rgba(41, 107, 109, 0.14);
-  color: var(--teal);
+  color: var(--lightpink);
 }
 
 .state-card p,
@@ -364,7 +364,7 @@ select {
   padding: 8px 12px;
   border-radius: 999px;
   background: rgba(41, 107, 109, 0.12);
-  color: var(--teal);
+  color: var(--lightpink);
   font-weight: 700;
 }
 
