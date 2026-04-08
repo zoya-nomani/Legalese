@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14th Amendment Risk Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Decision-Support MVP</p>
+        <h1>Which 14th Amendment signals deserve attention right now?</h1>
+        <p class="hero-text">
+          A trend intelligence dashboard for California, Texas, New York, Minnesota, and Pennsylvania.
+          This MVP ranks states by near-term 14th Amendment pressure and shows the rulings and legislation
+          driving each score.
+        </p>
+        <div class="hero-actions">
+          <button id="jump-to-ranking" class="button primary">View Rankings</button>
+          <button id="jump-to-method" class="button ghost">See Methodology</button>
+        </div>
+      </div>
+      <section class="hero-card">
+        <p class="card-label">Current focus</p>
+        <h2>14th Amendment</h2>
+        <ul class="signal-list">
+          <li>Equal Protection</li>
+          <li>Procedural Due Process</li>
+          <li>Substantive Due Process</li>
+        </ul>
+        <p class="card-footnote">Signals combine court activity, bill movement, recency, and directional impact.</p>
+      </section>
+    </header>
+
+    <main class="layout">
+      <section class="panel panel-summary">
+        <div>
+          <p class="section-label">Overview</p>
+          <h2>Five-state snapshot</h2>
+        </div>
+        <div id="summary-metrics" class="summary-metrics"></div>
+      </section>
+
+      <section class="panel panel-amendment">
+        <div class="panel-header">
+          <div>
+            <p class="section-label">Amendment Brief</p>
+            <h2>What is the 14th Amendment?</h2>
+          </div>
+        </div>
+        <div id="amendment-brief" class="amendment-brief"></div>
+        <div id="amendment-parts" class="method-grid"></div>
+      </section>
+
+      <section id="ranking-panel" class="panel panel-ranking">
+        <div class="panel-header">
+          <div>
+            <p class="section-label">State Ranking</p>
+            <h2>14th Amendment pressure by state</h2>
+          </div>
+          <label class="select-wrap">
+            <span>Sort by</span>
+            <select id="sort-select">
+              <option value="challengeRisk">Challenge Risk</option>
+              <option value="restrictionPressure">Restriction Pressure</option>
+              <option value="expansionMomentum">Expansion Momentum</option>
+            </select>
+          </label>
+        </div>
+        <div id="state-ranking" class="state-ranking"></div>
+      </section>
+
+      <section class="panel panel-filters">
+        <div class="panel-header">
+          <div>
+            <p class="section-label">Filters</p>
+            <h2>Refine the signal set</h2>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="select-wrap">
+            <span>State</span>
+            <select id="filter-state">
+              <option value="all">All states</option>
+            </select>
+          </label>
+          <label class="select-wrap">
+            <span>Topic</span>
+            <select id="filter-topic">
+              <option value="all">All topics</option>
+            </select>
+          </label>
+          <label class="select-wrap">
+            <span>Source type</span>
+            <select id="filter-type">
+              <option value="all">All source types</option>
+            </select>
+          </label>
+          <label class="select-wrap">
+            <span>Direction</span>
+            <select id="filter-direction">
+              <option value="all">All directions</option>
+              <option value="expanded">Expanded</option>
+              <option value="limited">Limited</option>
+              <option value="challenged">Challenged</option>
+            </select>
+          </label>
+        </div>
+        <div id="filter-summary" class="filter-summary"></div>
+      </section>
+
+      <section class="panel panel-detail">
+        <div class="panel-header">
+          <div>
+            <p class="section-label">State Analysis</p>
+            <h2 id="state-title">Select a state</h2>
+          </div>
+          <div id="state-badge" class="state-badge">No selection</div>
+        </div>
+
+        <div id="state-overview" class="state-overview empty-state">
+          Choose a state from the ranking to inspect its score drivers, doctrine breakdown, and recent developments.
+        </div>
+
+        <div id="state-health" class="state-health"></div>
+
+        <section class="detail-card full-span">
+          <div class="card-header">
+            <h3>What state? What amendment? Which county or district?</h3>
+            <p>The geographic focus and the part of the amendment currently under the most pressure.</p>
+          </div>
+          <div id="location-answer" class="answer-grid"></div>
+        </section>
+
+        <section class="detail-card full-span">
+          <div class="card-header">
+            <h3>How likely is this right to be limited, expanded, or challenged?</h3>
+            <p>Directional estimates for the selected state.</p>
+          </div>
+          <div id="estimate-cards" class="answer-grid"></div>
+        </section>
+
+        <div class="detail-grid">
+          <section class="detail-card">
+            <div class="card-header">
+              <h3>Statistics Showing Change</h3>
+              <p>Seed metrics illustrating how the amendment's practical effect may be changing.</p>
+            </div>
+            <div id="score-breakdown"></div>
+          </section>
+
+          <section class="detail-card">
+            <div class="card-header">
+              <h3>Which Part of the Amendment Is in Question?</h3>
+              <p>The 14th Amendment contains multiple protections. This shows which components are active.</p>
+            </div>
+            <div id="topic-breakdown"></div>
+          </section>
+        </div>
+
+        <section class="detail-card full-span">
+          <div class="card-header">
+            <h3>Possible News Stories Correlating With Current Events</h3>
+            <p>News hooks and current-event signals that help explain why this amendment area matters right now.</p>
+          </div>
+          <div id="news-list" class="document-list"></div>
+        </section>
+
+        <section class="detail-card full-span">
+          <div class="card-header">
+            <h3>Recent Court Rulings and Decisions</h3>
+            <p>Cases, filings, and legislative actions affecting interpretation of the 14th Amendment.</p>
+          </div>
+          <div id="document-list" class="document-list"></div>
+        </section>
+      </section>
+
+      <section id="methodology" class="panel panel-method">
+        <p class="section-label">Methodology</p>
+        <h2>How the MVP interprets risk</h2>
+        <div class="method-grid">
+          <article>
+            <h3>1. Ingest</h3>
+            <p>Each case or bill is stored with state, date, source type, topic, status, and a short explanation.</p>
+          </article>
+          <article>
+            <h3>2. Classify</h3>
+            <p>Documents are labeled as limiting, expanding, or challenging 14th Amendment protections.</p>
+          </article>
+          <article>
+            <h3>3. Weight</h3>
+            <p>Recency, authority, and legislative stage raise or lower each document’s contribution.</p>
+          </article>
+          <article>
+            <h3>4. Explain</h3>
+            <p>Every score is paired with plain-English reasoning and the documents that changed it.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
