@@ -25,7 +25,7 @@ body {
   font-family: "Manrope", sans-serif;
   background:
     radial-gradient(circle at top left, rgba(183, 79, 42, 0.16), transparent 32%),
-    radial-gradient(circle at top right, rgba(41, 107, 109, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(255, 182, 193, 0.18), transparent 28%),
     linear-gradient(180deg, #fbf7ef 0%, #f2ebde 100%);
   min-height: 100vh;
 }
@@ -122,7 +122,7 @@ h1 {
   border-radius: 30px;
   padding: 28px;
   background:
-    linear-gradient(180deg, rgba(41, 107, 109, 0.16), rgba(255, 255, 255, 0.6)),
+    linear-gradient(180deg, rgba(255, 182, 193, 0.16), rgba(255, 255, 255, 0.6)),
     var(--surface-strong);
 }
 
