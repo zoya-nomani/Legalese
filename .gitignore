@@ -1,0 +1,9 @@
+# Static MVP
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
