@@ -1,0 +1,177 @@
+{
+  "source": "RSS/Atom watchlist",
+  "amendment": "14th Amendment",
+  "note": "Google News RSS searches provide a no-key current-events layer for the selected jurisdictions and clauses.",
+  "feeds": [
+    {
+      "amendment": "14th Amendment",
+      "label": "California equal protection news",
+      "jurisdictionId": "ca",
+      "jurisdictionName": "California",
+      "clauseId": "equal-protection",
+      "direction": "challenged",
+      "note": "Current-events watchlist for California equal protection disputes",
+      "url": "https://news.google.com/rss/search?q=%22equal%20protection%22%20California&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "California due process news",
+      "jurisdictionId": "ca",
+      "jurisdictionName": "California",
+      "clauseId": "due-process",
+      "direction": "expanded",
+      "note": "Current-events watchlist for California due process disputes",
+      "url": "https://news.google.com/rss/search?q=%22due%20process%22%20California&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Texas equal protection news",
+      "jurisdictionId": "tx",
+      "jurisdictionName": "Texas",
+      "clauseId": "equal-protection",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Texas equal protection disputes",
+      "url": "https://news.google.com/rss/search?q=%22equal%20protection%22%20Texas&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Texas due process news",
+      "jurisdictionId": "tx",
+      "jurisdictionName": "Texas",
+      "clauseId": "due-process",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Texas due process disputes",
+      "url": "https://news.google.com/rss/search?q=%22due%20process%22%20Texas&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "New York equal protection news",
+      "jurisdictionId": "ny",
+      "jurisdictionName": "New York",
+      "clauseId": "equal-protection",
+      "direction": "expanded",
+      "note": "Current-events watchlist for New York equal protection disputes",
+      "url": "https://news.google.com/rss/search?q=%22equal%20protection%22%20%22New%20York%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "New York due process news",
+      "jurisdictionId": "ny",
+      "jurisdictionName": "New York",
+      "clauseId": "due-process",
+      "direction": "challenged",
+      "note": "Current-events watchlist for New York due process disputes",
+      "url": "https://news.google.com/rss/search?q=%22due%20process%22%20%22New%20York%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Minnesota equal protection news",
+      "jurisdictionId": "mn",
+      "jurisdictionName": "Minnesota",
+      "clauseId": "equal-protection",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Minnesota equal protection disputes",
+      "url": "https://news.google.com/rss/search?q=%22equal%20protection%22%20Minnesota&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Minnesota due process news",
+      "jurisdictionId": "mn",
+      "jurisdictionName": "Minnesota",
+      "clauseId": "due-process",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Minnesota due process disputes",
+      "url": "https://news.google.com/rss/search?q=%22due%20process%22%20Minnesota&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Pennsylvania equal protection news",
+      "jurisdictionId": "pa",
+      "jurisdictionName": "Pennsylvania",
+      "clauseId": "equal-protection",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Pennsylvania equal protection disputes",
+      "url": "https://news.google.com/rss/search?q=%22equal%20protection%22%20Pennsylvania&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "14th Amendment",
+      "label": "Pennsylvania due process news",
+      "jurisdictionId": "pa",
+      "jurisdictionName": "Pennsylvania",
+      "clauseId": "due-process",
+      "direction": "challenged",
+      "note": "Current-events watchlist for Pennsylvania due process disputes",
+      "url": "https://news.google.com/rss/search?q=%22due%20process%22%20Pennsylvania&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "California public carry news",
+      "jurisdictionId": "ca",
+      "jurisdictionName": "California",
+      "clauseId": "public-carry",
+      "direction": "challenged",
+      "note": "Current-events watchlist for California Second Amendment carry disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20California%20carry&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "California sensitive places news",
+      "jurisdictionId": "ca",
+      "jurisdictionName": "California",
+      "clauseId": "sensitive-places",
+      "direction": "challenged",
+      "note": "Current-events watchlist for California sensitive places disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20California%20%22sensitive%20places%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "Texas public carry news",
+      "jurisdictionId": "tx",
+      "jurisdictionName": "Texas",
+      "clauseId": "public-carry",
+      "direction": "expanded",
+      "note": "Current-events watchlist for Texas carry developments",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20Texas%20carry&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "New York public carry news",
+      "jurisdictionId": "ny",
+      "jurisdictionName": "New York",
+      "clauseId": "public-carry",
+      "direction": "challenged",
+      "note": "Current-events watchlist for New York carry disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20%22New%20York%22%20carry&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "New York sensitive places news",
+      "jurisdictionId": "ny",
+      "jurisdictionName": "New York",
+      "clauseId": "sensitive-places",
+      "direction": "challenged",
+      "note": "Current-events watchlist for New York sensitive places disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20%22New%20York%22%20%22sensitive%20places%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "Minnesota eligibility news",
+      "jurisdictionId": "mn",
+      "jurisdictionName": "Minnesota",
+      "clauseId": "eligibility",
+      "direction": "expanded",
+      "note": "Current-events watchlist for Minnesota age-based Second Amendment disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20Minnesota%2018%2020&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "amendment": "2nd Amendment",
+      "label": "Pennsylvania eligibility news",
+      "jurisdictionId": "pa",
+      "jurisdictionName": "Pennsylvania",
+      "clauseId": "eligibility",
+      "direction": "expanded",
+      "note": "Current-events watchlist for Pennsylvania age-based carry disputes",
+      "url": "https://news.google.com/rss/search?q=%22Second%20Amendment%22%20Pennsylvania%2018%2020&hl=en-US&gl=US&ceid=US:en"
+    }
+  ]
+}

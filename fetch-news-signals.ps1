@@ -98,6 +98,7 @@ foreach ($feed in $config.feeds) {
   $items = Get-FeedItems -Xml $xml | Select-Object -First $ResultLimitPerFeed
   foreach ($item in $items) {
     $allSignals += [pscustomobject]@{
+      amendment = if ($feed.amendment) { $feed.amendment } else { $config.amendment }
       jurisdictionId = $feed.jurisdictionId
       jurisdictionName = $feed.jurisdictionName
       clauseId = $feed.clauseId

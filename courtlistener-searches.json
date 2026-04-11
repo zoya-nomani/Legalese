@@ -1,0 +1,137 @@
+{
+  "amendment": "14th Amendment",
+  "daysBack": 365,
+  "resultLimitPerQuery": 5,
+  "jurisdictions": [
+    {
+      "id": "ca",
+      "name": "California",
+      "queries": [
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "equal-protection",
+          "query": "\"equal protection\" California"
+        },
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "due-process",
+          "query": "\"due process\" California"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "public-carry",
+          "query": "\"Second Amendment\" California carry"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "sensitive-places",
+          "query": "\"Second Amendment\" California sensitive places"
+        }
+      ]
+    },
+    {
+      "id": "tx",
+      "name": "Texas",
+      "queries": [
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "equal-protection",
+          "query": "\"equal protection\" Texas"
+        },
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "due-process",
+          "query": "\"due process\" Texas"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "public-carry",
+          "query": "\"Second Amendment\" Texas carry"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "eligibility",
+          "query": "\"Second Amendment\" Texas firearm possession"
+        }
+      ]
+    },
+    {
+      "id": "ny",
+      "name": "New York",
+      "queries": [
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "equal-protection",
+          "query": "\"equal protection\" \"New York\""
+        },
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "due-process",
+          "query": "\"due process\" \"New York\""
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "public-carry",
+          "query": "\"Second Amendment\" \"New York\" carry"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "sensitive-places",
+          "query": "\"Second Amendment\" \"New York\" sensitive places"
+        }
+      ]
+    },
+    {
+      "id": "mn",
+      "name": "Minnesota",
+      "queries": [
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "equal-protection",
+          "query": "\"equal protection\" Minnesota"
+        },
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "due-process",
+          "query": "\"due process\" Minnesota"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "eligibility",
+          "query": "\"Second Amendment\" Minnesota 18 20"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "public-carry",
+          "query": "\"Second Amendment\" Minnesota carry permit"
+        }
+      ]
+    },
+    {
+      "id": "pa",
+      "name": "Pennsylvania",
+      "queries": [
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "equal-protection",
+          "query": "\"equal protection\" Pennsylvania"
+        },
+        {
+          "amendment": "14th Amendment",
+          "clauseId": "due-process",
+          "query": "\"due process\" Pennsylvania"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "eligibility",
+          "query": "\"Second Amendment\" Pennsylvania 18 20"
+        },
+        {
+          "amendment": "2nd Amendment",
+          "clauseId": "public-carry",
+          "query": "\"Second Amendment\" Pennsylvania carry license"
+        }
+      ]
+    }
+  ]
+}
