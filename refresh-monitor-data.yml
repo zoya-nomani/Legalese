@@ -1,0 +1,46 @@
+name: Refresh Monitor Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * 1,4"
+
+jobs:
+  refresh:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Add optional CourtListener token
+        shell: pwsh
+        run: |
+          if ("${{ secrets.COURTLISTENER_TOKEN }}") {
+            "COURTLISTENER_TOKEN=${{ secrets.COURTLISTENER_TOKEN }}" | Out-File -FilePath $env:GITHUB_ENV -Append
+          }
+          if ("${{ secrets.OPENSTATES_API_KEY }}") {
+            "OPENSTATES_API_KEY=${{ secrets.OPENSTATES_API_KEY }}" | Out-File -FilePath $env:GITHUB_ENV -Append
+          }
+
+      - name: Run refresh scaffold
+        shell: pwsh
+        run: .\scripts\refresh-monitor-data.ps1
+
+      - name: Validate monitor data
+        shell: pwsh
+        run: .\scripts\validate-monitor-data.ps1
+
+      - name: Commit changed files
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js generated\courtlistener-signals.json generated\openstates-bills.json generated\news-signals.json generated\review-queue.json generated\promoted-signals.json generated\live-dashboard-overlay.json
+          $changes = git diff --cached --name-only
+          if ($changes) {
+            git commit -m "Run monitor data refresh scaffold"
+            git push
+          } else {
+            Write-Host "No data changes to commit."
+          }
