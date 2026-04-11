@@ -1,0 +1,47 @@
+{
+  "source": "Open States API v3",
+  "amendment": "14th Amendment",
+  "note": "Tracked bills are seeded from the current dashboard's legislation layer. Session strings may need a quick Open States confirmation pass if a specific endpoint rejects them.",
+  "trackedBills": [
+    {
+      "jurisdiction": "ocd-jurisdiction/country:us/state:ny/government",
+      "jurisdictionId": "ny",
+      "session": "2023-2024",
+      "identifier": "S108A",
+      "clauseId": "equal-protection",
+      "note": "New York ERA / equal-rights amendment language"
+    },
+    {
+      "jurisdiction": "ocd-jurisdiction/country:us/state:ca/government",
+      "jurisdictionId": "ca",
+      "session": "2021-2022",
+      "identifier": "SCA 10",
+      "clauseId": "due-process",
+      "note": "California reproductive freedom constitutional amendment"
+    },
+    {
+      "jurisdiction": "ocd-jurisdiction/country:us/state:mn/government",
+      "jurisdictionId": "mn",
+      "session": "2025-2026",
+      "identifier": "SF 473",
+      "clauseId": "equal-protection",
+      "note": "Minnesota equal rights amendment proposal"
+    },
+    {
+      "jurisdiction": "ocd-jurisdiction/country:us/state:pa/government",
+      "jurisdictionId": "pa",
+      "session": "2025-2026",
+      "identifier": "SB 388",
+      "clauseId": "equal-protection",
+      "note": "Pennsylvania sex-equality constitutional amendment proposal"
+    },
+    {
+      "jurisdiction": "ocd-jurisdiction/country:us/state:tx/government",
+      "jurisdictionId": "tx",
+      "session": "89R",
+      "identifier": "HB 5135",
+      "clauseId": "equal-protection",
+      "note": "Texas antidiscrimination / diversity policy bill"
+    }
+  ]
+}

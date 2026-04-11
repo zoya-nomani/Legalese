@@ -1,0 +1,96 @@
+{
+  "stateThemes": {
+    "ca": {
+      "accent": "#c96a2a",
+      "accentDark": "#8e4315",
+      "teal": "#1f7a6f",
+      "glowWarm": "rgba(201, 106, 42, 0.22)",
+      "glowCool": "rgba(31, 122, 111, 0.2)"
+    },
+    "tx": {
+      "accent": "#b13b2e",
+      "accentDark": "#721f18",
+      "teal": "#3c5977",
+      "glowWarm": "rgba(177, 59, 46, 0.22)",
+      "glowCool": "rgba(60, 89, 119, 0.2)"
+    },
+    "ny": {
+      "accent": "#8f4bb3",
+      "accentDark": "#5c2a78",
+      "teal": "#1f5a8a",
+      "glowWarm": "rgba(143, 75, 179, 0.2)",
+      "glowCool": "rgba(31, 90, 138, 0.2)"
+    },
+    "mn": {
+      "accent": "#356fa8",
+      "accentDark": "#1f466d",
+      "teal": "#6b9f45",
+      "glowWarm": "rgba(53, 111, 168, 0.2)",
+      "glowCool": "rgba(107, 159, 69, 0.18)"
+    },
+    "pa": {
+      "accent": "#9b7a22",
+      "accentDark": "#675014",
+      "teal": "#4c587f",
+      "glowWarm": "rgba(155, 122, 34, 0.22)",
+      "glowCool": "rgba(76, 88, 127, 0.18)"
+    }
+  },
+  "jurisdictionFacts": {
+    "ca": {
+      "capital": "Sacramento",
+      "population": "39,355,309",
+      "populationLabel": "U.S. Census Bureau estimate (July 1, 2025)",
+      "electoralVotes": 54,
+      "districtMapAlt": "California congressional districts shaded by 2025 voter registration balance",
+      "districtMapUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CA%202025%20Voter%20Registration%20by%20CD.svg",
+      "districtMapPage": "https://commons.wikimedia.org/wiki/File:CA_2025_Voter_Registration_by_CD.svg",
+      "districtMapNote": "Latest available district-level partisan registration map. Blue-leaning and red-leaning districts are shown by party registration balance.",
+      "populationSource": "https://www.census.gov/quickfacts/fact/table/CA/POP645222"
+    },
+    "tx": {
+      "capital": "Austin",
+      "population": "31,709,821",
+      "populationLabel": "U.S. Census Bureau estimate (July 1, 2025)",
+      "electoralVotes": 40,
+      "districtMapAlt": "Texas congressional districts shaded by 2024 U.S. Senate results",
+      "districtMapUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20United%20States%20Senate%20election%20in%20Texas%20results%20map%20by%20congressional%20district.svg",
+      "districtMapPage": "https://commons.wikimedia.org/wiki/File:2024_United_States_Senate_election_in_Texas_results_map_by_congressional_district.svg",
+      "districtMapNote": "Latest available statewide district map showing red-blue performance by congressional district in a 2024 statewide federal race.",
+      "populationSource": "https://www.census.gov/quickfacts/fact/table/TX/RHI125224"
+    },
+    "ny": {
+      "capital": "Albany",
+      "population": "20,002,427",
+      "populationLabel": "U.S. Census Bureau estimate (July 1, 2025)",
+      "electoralVotes": 28,
+      "districtMapAlt": "New York congressional districts shaded by 2025 voter registration balance",
+      "districtMapUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20New%20York%20voter%20registration%20map%20by%20congressional%20district.svg",
+      "districtMapPage": "https://commons.wikimedia.org/wiki/File:2025_New_York_voter_registration_map_by_congressional_district.svg",
+      "districtMapNote": "Latest available district-level partisan registration map. Blue-leaning and red-leaning districts are shown by party registration balance.",
+      "populationSource": "https://www.census.gov/quickfacts/fact/table/NY/POP815223"
+    },
+    "mn": {
+      "capital": "Saint Paul",
+      "population": "5,830,405",
+      "populationLabel": "U.S. Census Bureau estimate (July 1, 2025)",
+      "electoralVotes": 10,
+      "districtMapAlt": "Minnesota congressional districts shaded by 2024 U.S. Senate results",
+      "districtMapUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20United%20States%20Senate%20election%20in%20Minnesota%20results%20map%20by%20congressional%20district.svg",
+      "districtMapPage": "https://commons.wikimedia.org/wiki/File:2024_United_States_Senate_election_in_Minnesota_results_map_by_congressional_district.svg",
+      "districtMapNote": "Latest available statewide district map showing red-blue performance by congressional district in a 2024 statewide federal race.",
+      "populationSource": "https://www.census.gov/quickfacts/fact/table/MN/POP815223"
+    },
+    "pa": {
+      "capital": "Harrisburg",
+      "population": "13,059,432",
+      "populationLabel": "U.S. Census Bureau estimate (July 1, 2025)",
+      "electoralVotes": 19,
+      "districtMapAlt": "Pennsylvania congressional districts shaded by 2025 voter registration balance",
+      "districtMapUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Pennsylvania%20voter%20registration%20map%20by%20congressional%20district.svg",
+      "districtMapPage": "https://commons.wikimedia.org/wiki/File:2025_Pennsylvania_voter_registration_map_by_congressional_district.svg",
+      "districtMapNote": "Latest available district-level partisan registration map. Blue-leaning and red-leaning districts are shown by party registration balance.",
+      "populationSource": "https://www.census.gov/quickfacts/fact/table/PA/RHI125223"
+    }
+  }
+}
